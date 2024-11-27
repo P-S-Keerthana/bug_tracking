@@ -1,0 +1,32 @@
+{
+  "name": "bug-tracking",
+  "version": "1.0.0",
+  "description": "This allow teams to report bugs, track their progress, prioritize them, assign tasks to team members, and ensure that all issues are addressed and resolved",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeerthiSrini/Bug-Tracking.git"
+  },
+  "author": "Keerthana P S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeerthiSrini/Bug-Tracking/issues"
+  },
+  "homepage": "https://github.com/KeerthiSrini/Bug-Tracking#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7"
+  }
+}
